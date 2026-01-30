@@ -10,3 +10,22 @@ License: This theme is not to be used for any other website other that topasianm
 License URI: The URL of the theme license.
 Text Domain: The string used for textdomain for translation. The theme slug. 
 */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    max-width: 300px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    text-align: center;
+}
