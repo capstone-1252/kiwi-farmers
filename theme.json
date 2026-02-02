@@ -1,0 +1,139 @@
+{
+  "version": "2",
+  "settings": {
+    "appearanceTools": false,
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "color": {
+      "background": false,
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "duotone": [],
+      "gradients": [],
+      "link": false,
+      "palette": [
+        {
+          "color": "#fffdec",
+          "slug": "off-white",
+          "name": "Off White"
+        },
+        {
+          "color": "#814300",
+          "slug": "logo-brown",
+          "name": "Logo Brown"
+        },
+        {
+          "color": "#006d02",
+          "slug": "green",
+          "name": "Green"
+        },
+        {
+          "color": "#002901",
+          "slug": "dark-green",
+          "name": "Dark Green"
+        },
+        {
+          "color": "#000000",
+          "slug": "black",
+          "name": "Black"
+        }
+      ],
+      "text": false
+    },
+    "custom": {
+      "spacing": {},
+      "typography": {
+        "fontSize": {},
+        "lineHeight": {}
+      }
+    },
+    "layout": {
+      "contentSize": "960px",
+      "wideSize": "1440px"
+    },
+    "spacing": {
+      "blockGap": null,
+      "margin": true,
+      "padding": true,
+      "units": [
+        "vw"
+      ]
+    },
+    "typography": {
+      "customFontSize": false,
+      "dropCap": false,
+      "fontFamilies": [],
+      "fontSizes": [],
+      "fontStyle": false,
+      "fontWeight": false,
+      "letterSpacing": false,
+      "lineHeight": false,
+      "textDecoration": false,
+      "textTransform": false
+    }
+  },
+  "styles": {
+    "border": {
+      "color": "",
+      "radius": "",
+      "style": "",
+      "width": ""
+    },
+    "color": {
+      "background": "",
+      "gradient": "",
+      "text": ""
+    },
+    "filter": {
+      "duotone": ""
+    },
+    "spacing": {
+      "blockGap": "",
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "typography": {
+      "fontFamily": "",
+      "fontSize": "",
+      "fontStyle": "",
+      "fontWeight": "",
+      "letterSpacing": "",
+      "lineHeight": "",
+      "textDecoration": "",
+      "textTransform": ""
+    },
+    "elements": {
+      "link": {
+        "border": {},
+        "color": {},
+        "spacing": {},
+        "typography": {}
+      },
+      "h1": {},
+      "h2": {},
+      "h3": {},
+      "h4": {},
+      "h5": {},
+      "h6": {}
+    }
+  },
+  "customTemplates": [],
+  "templateParts": []
+}

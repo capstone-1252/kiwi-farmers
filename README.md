@@ -27,6 +27,8 @@ These steps are to be followed to help prevent any issues that may arise from me
 
 ## Recent Messages
 
+### Kevin Paradis (02/02/2026, 13:31)
+It was decided that instead of making a Classic theme, we will be making a Block theme with Full Site Editing. This will significantly benefit development as we have much more familiarity using Block themes as opposed to Classic themes. With this change, we intend to speed up development by specializing in areas of WordPress we have stronger knowledge, hopefully cutting down on the amount of time wasted on fist fighting with a Classic theme when a Block theme will work with little fuss. These changes will be pushed by the end of this work period.
 
 ### Kevin Paradis (30/01/2026, 14:57)
 screenshot.png is a placeholder image used for the skeleton structure of the classic theme. This image is to be replaced with a more appropriate image later in production.
