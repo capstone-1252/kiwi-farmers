@@ -27,6 +27,11 @@ These steps are to be followed to help prevent any issues that may arise from me
 
 ## Recent Messages
 
+### Kevin Paradis (05/02/2026, 14:08)
+We have recently completed some more user testing of our low fidelity wire frame. We're compiling our notes into a spreadsheet, and we are pleased with the feedback we have received. With this information, Rodney will further refine the high fidelity design into something we will deliver to the client for feedback and approval. In the mean time, I will be working on the WordPress installation, doing things like adding pages and posts to fit the requirements of the site, as well as test navigation between these pages and posts.
+
+We also replaced screenshot.png with a more appropriate image of the logo of Top Asian Massage. No more crusty land shark ;-;
+
 ### Kevin Paradis (02/02/2026, 13:31)
 It was decided that instead of making a Classic theme, we will be making a Block theme with Full Site Editing. This will significantly benefit development as we have much more familiarity using Block themes as opposed to Classic themes. With this change, we intend to speed up development by specializing in areas of WordPress we have stronger knowledge, hopefully cutting down on the amount of time wasted on fist fighting with a Classic theme when a Block theme will work with little fuss. These changes will be pushed by the end of this work period.
 
