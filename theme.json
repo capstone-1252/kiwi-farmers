@@ -63,7 +63,9 @@
       "margin": true,
       "padding": true,
       "units": [
-        "vw"
+        "rem",
+        "px",
+        "%"
       ]
     },
     "typography": {
