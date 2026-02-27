@@ -27,6 +27,16 @@ These steps are to be followed to help prevent any issues that may arise from me
 
 ## Recent Messages
 
+### Kevin Paradis (27/02/2026, 13:10)
+Yesterday we had a very productive meeting with our client. Our biggest point was successfully paying for web hosting with Hostinger, having solved the issue that plagued us previously. Along with that, we got approval for our high fidelity design and got revisions on the content for the website. 
+
+Rodney is still hard at work finishing the high fidelity design, and we couldn't be happier with how it came out. We're excited to share our design with our peers come Monday. As for myself, I'm adding the requested revisions to the biography and services the client provided me. I'll likely spend the remainder of this week fixing those and getting them ready for publication.
+
+We're still in the process of getting the website fully online with the domain we secured. This will be our primary task on Monday, to get the website up and operational in time for our team meeting on Thursday.
+
+Expect next week to see a massive spike in development activity, as we're finally able to progress to the next stage of development.
+
+
 ### Kevin Paradis (23/02/2026, 12:58)
 Hey... it's been a while, huh?
 
