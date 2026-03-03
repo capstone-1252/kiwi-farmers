@@ -9,15 +9,15 @@
       "width": true
     },
     "color": {
-      "background": false,
-      "custom": false,
+      "background": true,
+      "custom": true,
       "customDuotone": false,
       "customGradient": false,
       "defaultGradients": false,
       "defaultPalette": false,
       "duotone": [],
       "gradients": [],
-      "link": false,
+      "link": true,
       "palette": [
         {
           "color": "#fffdec",
@@ -43,9 +43,214 @@
           "color": "#000000",
           "slug": "black",
           "name": "Black"
+        },
+        {
+          "color": "#ABADA6",
+          "slug": "white-primary--3",
+          "name": "White Primary -3"
+        },
+        {
+          "color": "#C5C7BF",
+          "slug": "white-primary--2",
+          "name": "White Primary -2"
+        },
+        {
+          "color": "#DAE0CC",
+          "slug": "white-primary--1",
+          "name": "White Primary -1"
+        },
+        {
+          "color": "#F6F9EF",
+          "slug": "white-primary-0",
+          "name": "White Primary 0"
+        },
+        {
+          "color": "#FDFFF8",
+          "slug": "white-primary-1",
+          "name": "White Primary 1"
+        },
+        {
+          "color": "#FFFFFF",
+          "slug": "white-primary-2",
+          "name": "White Primary 2"
+        },
+        {
+          "color": "#89917C",
+          "slug": "white-secondary--3",
+          "name": "White Secondary -3"
+        },
+        {
+          "color": "#A1AB92",
+          "slug": "white-secondary--2",
+          "name": "White Secondary -2"
+        },
+        {
+          "color": "#B9C4A8",
+          "slug": "white-secondary--1",
+          "name": "White Secondary -1"
+        },
+        {
+          "color": "#D1DEBE",
+          "slug": "white-secondary-0",
+          "name": "White Secondary 0"
+        },
+        {
+          "color": "#E9F7D4",
+          "slug": "white-secondary-1",
+          "name": "White Secondary 1"
+        },
+        {
+          "color": "#F5FFE5",
+          "slug": "white-secondary-2",
+          "name": "White Secondary 2"
+        },
+        {
+          "color": "#7A8F78",
+          "slug": "green-primary--3",
+          "name": "Green Primary -3"
+        },
+        {
+          "color": "#90A88D",
+          "slug": "green-primary--2",
+          "name": "Green Primary -2"
+        },
+        {
+          "color": "#A5C2A3",
+          "slug": "green-primary--1",
+          "name": "Green Primary -1"
+        },
+        {
+          "color": "#BBDBB8",
+          "slug": "green-primary-0",
+          "name": "Green Primary 0"
+        },
+        {
+          "color": "#D1F5CE",
+          "slug": "green-primary-1",
+          "name": "Green Primary 1"
+        },
+        {
+          "color": "#E8FFE5",
+          "slug": "green-primary-2",
+          "name": "Green Primary 2"
+        },
+        {
+          "color": "#354734",
+          "slug": "green-secondary--3",
+          "name": "Green Secondary -3"
+        },
+        {
+          "color": "#486147",
+          "slug": "green-secondary--2",
+          "name": "Green Secondary -2"
+        },
+        {
+          "color": "#5A7A5A",
+          "slug": "green-secondary--1",
+          "name": "Green Secondary -1"
+        },
+        {
+          "color": "#6E956D",
+          "slug": "green-secondary-0",
+          "name": "Green Secondary 0"
+        },
+        {
+          "color": "#80AD7F",
+          "slug": "green-secondary-1",
+          "name": "Green Secondary 1"
+        },
+        {
+          "color": "#93C792",
+          "slug": "green-secondary-2",
+          "name": "Green Secondary 2"
+        },
+        {
+          "color": "#080605",
+          "slug": "brown-primary--3",
+          "name": "Brown Primary -3"
+        },
+        {
+          "color": "#211A17",
+          "slug": "brown-primary--2",
+          "name": "Brown Primary -2"
+        },
+        {
+          "color": "#3B2F29",
+          "slug": "brown-primary--1",
+          "name": "Brown Primary -1"
+        },
+        {
+          "color": "#53423A",
+          "slug": "brown-primary-0",
+          "name": "Brown Primary 0"
+        },
+        {
+          "color": "#6E574D",
+          "slug": "brown-primary-1",
+          "name": "Brown Primary 1"
+        },
+        {
+          "color": "#876B5E",
+          "slug": "brown-primary-2",
+          "name": "Brown Primary 2"
+        },
+        {
+          "color": "#000000",
+          "slug": "brown-secondary--3",
+          "name": "Brown Secondary -3"
+        },
+        {
+          "color": "#000000",
+          "slug": "brown-secondary--2",
+          "name": "Brown Secondary -2"
+        },
+        {
+          "color": "#0D0B0A",
+          "slug": "brown-secondary--1",
+          "name": "Brown Secondary -1"
+        },
+        {
+          "color": "#251F1C",
+          "slug": "brown-secondary-0",
+          "name": "Brown Secondary 0"
+        },
+        {
+          "color": "#403530",
+          "slug": "brown-secondary-1",
+          "name": "Brown Secondary 1"
+        },
+        {
+          "color": "#594B44",
+          "slug": "brown-secondary-2",
+          "name": "Brown Secondary 2"
+        },
+        {
+          "color": "#396B73",
+          "slug": "blue-button--2",
+          "name": "Blue Button -2"
+        },
+        {
+          "color": "#46838C",
+          "slug": "blue-button--1",
+          "name": "Blue Button -1"
+        },
+        {
+          "color": "#529AA5",
+          "slug": "blue-button-0",
+          "name": "Blue Button 0"
+        },
+        {
+          "color": "#5FB2BF",
+          "slug": "blue-button-1",
+          "name": "Blue Button 1"
+        },
+        {
+          "color": "#E3E7D7",
+          "slug": "misc-green",
+          "name": "Misc Green"
         }
       ],
-      "text": false
+      "text": true
     },
     "custom": {
       "spacing": {},
@@ -59,7 +264,7 @@
       "wideSize": "1440px"
     },
     "spacing": {
-      "blockGap": null,
+      "blockGap": true,
       "margin": true,
       "padding": true,
       "units": [
@@ -71,8 +276,70 @@
     "typography": {
       "customFontSize": false,
       "dropCap": false,
-      "fontFamilies": [],
-      "fontSizes": [],
+      "fontFamilies": [
+        {
+          "fontFamily": "Tahoma",
+          "name": "Tahoma",
+          "slug": "tahoma"
+        },
+        {
+          "fontFamily": "Sylfaen",
+          "name": "Sylfaen",
+          "slug": "sylfaen"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "H1 Desktop",
+          "size": "2.5rem",
+          "slug": "h1-desktop"
+        },
+        {
+          "name": "H2 Desktop",
+          "size": "2rem",
+          "slug": "h2-desktop"
+        },
+        {
+          "name": "H3 Desktop",
+          "size": "1.5rem",
+          "slug": "h3-desktop"
+        },
+        {
+          "name": "Body Desktop",
+          "size": "1.25rem",
+          "slug": "body-desktop"
+        },
+        {
+          "name": "Misc Desktop",
+          "size": "1rem",
+          "slug": "misc-desktop"
+        },
+        {
+          "name": "H1 Mobile",
+          "size": "1.875rem",
+          "slug": "h1-mobile"
+        },
+        {
+          "name": "H2 Mobile",
+          "size": "1.5rem",
+          "slug": "h2-mobile"
+        },
+        {
+          "name": "H3 Mobile",
+          "size": "1.25rem",
+          "slug": "h3-mobile"
+        },
+        {
+          "name": "Body Mobile",
+          "size": "1rem",
+          "slug": "body-mobile"
+        },
+        {
+          "name": "Misc Mobile",
+          "size": "0.875rem",
+          "slug": "misc-mobile"
+        }
+      ],
       "fontStyle": false,
       "fontWeight": false,
       "letterSpacing": false,
@@ -139,3 +406,4 @@
   "customTemplates": [],
   "templateParts": []
 }
+
