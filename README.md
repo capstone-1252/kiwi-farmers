@@ -27,6 +27,16 @@ These steps are to be followed to help prevent any issues that may arise from me
 
 ## Recent Messages
 
+### Kevin Paradis (05/03/2026, 14:02)
+Something has been plaguing development for the last week, and it's come to a point where we're basically out of things to do to solve the problem. When we purchased hosting at last week's meeting, we attempted to connect the domain name we bought a month prior, but we weren't able to do so. Apparently, the domain name we purchased was "Suspended", and has been since we bought it. For some reason, it claims the email we used for the domain name isn't verified. We used the client's business email, and we made sure to verify the email during that meeting.
+
+![Validation](pics/verified.png)
+
+Thankfully, our hosting appears to be working, as we were able to host a blank website under a temporary domain name. We'll attempt to use this for the time being until we can resolve the domain name issue, which we found we can change after 60 days after initial purchase (Jan 22), so the earliest we can fix this is March 22nd.
+
+We're still in the process of getting *something* up on our hosting service for today's meeting, but tension is rather high due to frustration, as both of us are confused and annoyed that this happened in the first place.
+
+
 ### Kevin Paradis (27/02/2026, 13:10)
 Yesterday we had a very productive meeting with our client. Our biggest point was successfully paying for web hosting with Hostinger, having solved the issue that plagued us previously. Along with that, we got approval for our high fidelity design and got revisions on the content for the website. 
 
