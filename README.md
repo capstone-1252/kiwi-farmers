@@ -27,6 +27,15 @@ These steps are to be followed to help prevent any issues that may arise from me
 
 ## Recent Messages
 
+### Kevin Paradis (06/03/2026, 14:36)
+After spending over an hour both researching and experimenting on methods to automatically connect this GitHub repo to our hosting service has failed. I was able to find 3 separate methods to make this connection, and none of them worked.
+
+Method one asked me to navigate to a menu in Hostinger that physically doesn't exist
+Method two asked me to input a code into a terminal and add a password. Problem is that it physically wouldn't let me input anything into the password, so I wasn't able to make a connection
+Lastly, method three said to use a Hostinger plugin, that of course, requires money. This is likely the best option of doing this, but I'm uncomfortable paying for anything without client approval
+
+For the time being, we will likely be updating the theme manually on the hosting service, as to not bog down development with fruitless research and experimentation
+
 ### Kevin Paradis (05/03/2026, 14:02)
 Something has been plaguing development for the last week, and it's come to a point where we're basically out of things to do to solve the problem. When we purchased hosting at last week's meeting, we attempted to connect the domain name we bought a month prior, but we weren't able to do so. Apparently, the domain name we purchased was "Suspended", and has been since we bought it. For some reason, it claims the email we used for the domain name isn't verified. We used the client's business email, and we made sure to verify the email during that meeting.
 
