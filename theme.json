@@ -290,62 +290,72 @@
       ],
       "fontSizes": [
         {
-          "name": "H1 Desktop",
-          "size": "2.5rem",
-          "slug": "h1-desktop"
-        },
-        {
-          "name": "H2 Desktop",
+          "name": "Mobile H1",
           "size": "2rem",
-          "slug": "h2-desktop"
+          "slug": "mobile-h1"
         },
         {
-          "name": "H3 Desktop",
-          "size": "1.5rem",
-          "slug": "h3-desktop"
+          "name": "Mobile H2",
+          "size": "1.625rem",
+          "slug": "mobile-h2"
         },
         {
-          "name": "Body Desktop",
+          "name": "Mobile H3",
+          "size": "1.375",
+          "slug": "mobile-h3"
+        },
+        {
+          "name": "Mobile H4",
           "size": "1.25rem",
-          "slug": "body-desktop"
+          "slug": "mobile-h4"
         },
         {
-          "name": "Misc Desktop",
+          "name": "Mobile Body",
+          "size": "1.125rem",
+          "slug": "mobile-body"
+        },
+        {
+          "name": "Mobile Misc",
           "size": "1rem",
-          "slug": "misc-desktop"
+          "slug": "mobile-misc"
         },
         {
-          "name": "H1 Mobile",
+          "name": "Desktop H1",
+          "size": "3rem",
+          "slug": "desktop-h1"
+        },
+        {
+          "name": "Desktop H2",
+          "size": "2.375rem",
+          "slug": "desktop-h2"
+        },
+        {
+          "name": "Desktop H3",
           "size": "1.875rem",
-          "slug": "h1-mobile"
+          "slug": "desktop-h3"
         },
         {
-          "name": "H2 Mobile",
-          "size": "1.5rem",
-          "slug": "h2-mobile"
+          "name": "Desktop H4",
+          "size": "1.5625rem",
+          "slug": "desktop-h4"
         },
         {
-          "name": "H3 Mobile",
-          "size": "1.25rem",
-          "slug": "h3-mobile"
+          "name": "Desktop Body",
+          "size": "1.375rem",
+          "slug": "desktop-body"
         },
         {
-          "name": "Body Mobile",
-          "size": "1rem",
-          "slug": "body-mobile"
-        },
-        {
-          "name": "Misc Mobile",
-          "size": "0.875rem",
-          "slug": "misc-mobile"
+          "name": "Desktop Misc",
+          "size": "1.125rem",
+          "slug": "desktop-misc"
         }
       ],
-      "fontStyle": false,
-      "fontWeight": false,
-      "letterSpacing": false,
-      "lineHeight": false,
-      "textDecoration": false,
-      "textTransform": false
+      "fontStyle": true,
+      "fontWeight": true,
+      "letterSpacing": true,
+      "lineHeight": true,
+      "textDecoration": true,
+      "textTransform": true
     }
   },
   "styles": {
