@@ -27,6 +27,9 @@ These steps are to be followed to help prevent any issues that may arise from me
 
 ## Recent Messages
 
+### Kevin Paradis (12/03/2026, 13:37)
+I had a small problem with the color pallette where the -x and x colors were the same. I fixed this issue by making the slugs more distinct
+
 ### Kevin Paradis (06/03/2026, 14:36)
 After spending over an hour both researching and experimenting on methods to automatically connect this GitHub repo to our hosting service has failed. I was able to find 3 separate methods to make this connection, and none of them worked.
 
