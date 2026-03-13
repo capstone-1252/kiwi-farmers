@@ -27,6 +27,9 @@ These steps are to be followed to help prevent any issues that may arise from me
 
 ## Recent Messages
 
+### Kevin Paradis (13/03/2026, 15:10)
+The design is slowly coming together, but as of right now, many of the current templates are lacking images. This will be alleviated later when we take professional photos of our client's studio, and possibly the use of stock images to fill in gaps.
+
 ### Kevin Paradis (12/03/2026, 13:37)
 I had a small problem with the color pallette where the -x and x colors were the same. I fixed this issue by making the slugs more distinct
 
