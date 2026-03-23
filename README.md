@@ -27,6 +27,11 @@ These steps are to be followed to help prevent any issues that may arise from me
 
 ## Recent Messages
 
+### Kevin Paradis (20/03/2026, 15:31)
+With Rodney joining the development process, the website is expected to take shape even faster than before. Naturally, it took a moment to get used to needing to deal with a second developer, as I had to take some time to resolve a few merge conflicts. After learning my lesson, things will be much smoother going forward.
+
+The images for the website have already been collected and are *mostly* ready for deployment. However the dimensions of the images will likely need to be adjusted, as they don't easily fit into the design as is.s
+
 ### Kevin Paradis (13/03/2026, 15:10)
 The design is slowly coming together, but as of right now, many of the current templates are lacking images. This will be alleviated later when we take professional photos of our client's studio, and possibly the use of stock images to fill in gaps.
 
