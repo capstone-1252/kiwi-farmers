@@ -29,3 +29,21 @@ img {
 footer {
     text-align: center;
 }
+
+.query-thumbnail {
+  position: relative;
+  width: 100%;
+  height: 0;
+  /* Formula: (Height / Width) * 100 */
+  /* For 16:9, it is (9 / 16) * 100 = 56.25% */
+  padding-top: 56.25%; 
+}
+
+/* 2. The content fills the wrapper */
+.query-thumbnail > .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
