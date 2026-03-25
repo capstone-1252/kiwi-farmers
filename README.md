@@ -27,6 +27,11 @@ These steps are to be followed to help prevent any issues that may arise from me
 
 ## Recent Messages
 
+### Kevin Paradis (25/03/2026, 13:49)
+Rodney has made a startling discover that may very likely put the entire website at risk. In his attempts to add ACF functionality to the posts, he discovered that Hostinger is disabling the use of ACF, and we have yet to find a solution. This is exorbitently infuriating because we were never made aware of this during our initial research.
+
+We are hard at work attempting to find a solution to this, as we are aware that ACF is required for Capstone.
+
 ### Kevin Paradis (20/03/2026, 15:31)
 With Rodney joining the development process, the website is expected to take shape even faster than before. Naturally, it took a moment to get used to needing to deal with a second developer, as I had to take some time to resolve a few merge conflicts. After learning my lesson, things will be much smoother going forward.
 
