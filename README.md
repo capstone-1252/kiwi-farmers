@@ -26,9 +26,11 @@ These steps are to be followed to help prevent any issues that may arise from me
 ---
 
 ## Recent Messages
+### Rodney Russell (26/03/2026, 12:43)
+It's time to make my first post! I've spent about 15 hours in total figuring out why something as basic as ACF/SCF would not work. Following the previous lab lesson on the plugin led me nowhere. After trying almost a dozen different solutions, I found one that works! I downloaded the plugin CodeSnippets and made a function that create it's own shortcode to use. I then created a form that loads wherever that shortcode is added to an admin-only page. By filling out the form and pressing submit, SCF automatically creates a new post, displays the details on the custom post with the new shortcodes, and redirects you to that post to view it. This is a "if it works, don't touch it" scenario. All that's left is to style it to fit the website. In the end, I'm proud I was able to achieve such a solution despite how easy ACF should be. I'm no longer convinced that Hostinger itself is preventing the functionality of ACF/SCF plugins.
 
 ### Kevin Paradis (25/03/2026, 13:49)
-Rodney has made a startling discover that may very likely put the entire website at risk. In his attempts to add ACF functionality to the posts, he discovered that Hostinger is disabling the use of ACF, and we have yet to find a solution. This is exorbitently infuriating because we were never made aware of this during our initial research.
+Rodney has made a startling discover that may very likely put the entire website at risk. In his attempts to add ACF functionality to the posts, he discovered that Hostinger itself might be the reason for this, and we have yet to find a solution. This is exorbitantly infuriating because we were never made aware of this during our initial research.
 
 We are hard at work attempting to find a solution to this, as we are aware that ACF is required for Capstone.
 
