@@ -14,31 +14,9 @@ Text Domain: The string used for textdomain for translation. The theme slug.
     box-sizing: border-box;
 }
 
-.container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-}
-header .container{
-    display: flex;
-    justify-content: space-between;
-    max-width: 960px;
-}
-.logo {
-    max-width: 300px;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-footer {
-    text-align: center;
-}
 
 .grid {
     display: grid;
-    gap: 2rem; 
 }
 
 .grid {
@@ -56,23 +34,23 @@ footer {
 
 
 @media (min-width: 750px) {
-  body{
-    size: 1.375rem !important;
+  .p{
+    font-size: 1.375rem !important;
 }
   .h1{
-    size: 3rem !important;
+    font-size: 3rem !important;
 }
   .h2{
-    size: 2.375rem !important;
+    font-size: 2.375rem !important;
 }
   .h3{
-    size: 1.875rem !important;
+    font-size: 1.875rem !important;
 }
   .h4{
-    size: 1.5625rem !important;
+    font-size: 1.5625rem !important;
 }
   .misc{
-    size: 1.125rem !important;
+    font-size: 1.125rem !important;
  }
  .grid {
         grid-template-columns: repeat(12, 1fr);
