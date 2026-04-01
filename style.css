@@ -2,7 +2,7 @@
 Theme Name: Top Asian Massage
 Author: Kevin Paradis & Rodney Russell
 Description: The block theme for our capstone project
-Version: 1.4.3
+Version: 1.4.4
 Requires at least: 6.8.0
 Tested up to: 6.9.1
 Requires PHP: 8.2.27
@@ -10,10 +10,116 @@ License: This theme is not to be used for any other website other that topasianm
 License URI: The URL of the theme license.
 Text Domain: The string used for textdomain for translation. The theme slug. 
 */
+
+:root {
+    /* Main Logo Colors */
+    --off-white: #fffdec;
+    --logo-brown: #814300;
+    --green: #006d02;
+    --dark-green: #002901;
+    --black: #000000;
+
+    /* White Primary*/
+    --white-primary-d3: #ABADA6;
+    --white-primary-d2: #C5C7BF;
+    --white-primary-d1: #DAE0CC;
+    --paragraph-light: #F6F9EF; /*Paragraph text light*/
+    --white-primary-u1: #FDFFF8;
+    --white-primary-u2: #FFFFFF;
+
+    /* White Secondary*/
+    --white-secondary-d3: #89917C;
+    --white-secondary-d2: #A1AB92;
+    --white-secondary-d1: #B9C4A8;
+    --white-secondary-0: #D1DEBE;
+    --white-secondary-u1: #E9F7D4;
+    --white-secondary-u2: #F5FFE5;
+
+    /* Green Primary*/
+    --green-primary-d3: #7A8F78;
+    --green-primary-d2: #90A88D;
+    --green-primary-d1: #A5C2A3;
+    --green-primary-0: #BBDBB8;
+    --green-primary-u1: #D1F5CE;
+    --green-primary-u2: #E8FFE5;
+
+    /* Green Secondary*/
+    --green-secondary-d3: #354734;
+    --green-secondary-d2: #486147;
+    --green-secondary-d1: #5A7A5A;
+    --green-secondary-0: #6E956D;
+    --green-secondary-u1: #80AD7F;
+    --green-secondary-u2: #93C792;
+
+    /* Brown Primary*/
+    --brown-primary-d3: #080605;
+    --brown-primary-d2: #211A17;
+    --brown-primary-d1: #3B2F29;
+    --brown-primary-0: #53423A;
+    --brown-primary-u1: #6E574D;
+    --brown-primary-u2: #876B5E;
+
+    /* Brown Secondary*/
+    --brown-secondary-d3: #000000;
+    --brown-secondary-d2: #000000;
+    --header: #0D0B0A; /*Header Text*/
+    --paragraph: #251F1C; /*Paragraph Text*/
+    --brown-secondary-u1: #403530;
+    --brown-secondary-u2: #594B44;
+
+    /* UI Elements */
+    --hover: #396B73; /*Button hover*/
+    --blue-button-d1: #46838C;
+    --blue-button-0: #529AA5;
+    --blue-button-u1: #5FB2BF;
+    --misc-green: #E3E7D7;
+
+    /* Font Families */
+    --font-tahoma: "Tahoma", sans-serif;
+    --font-sylfaen: "Sylfaen", serif;
+
+    /* Font Sizes - Mobile */
+    --mobile-h1: 2rem;
+    --mobile-h2: 1.625rem;
+    --mobile-h3: 1.375rem;
+    --mobile-h4: 1.25rem;
+    --mobile-body: 1.125rem;
+    --mobile-misc: 1rem;
+
+    /* Font Sizes - Desktop */
+    --desktop-h1: 3rem;
+    --desktop-h2: 2.375rem;
+    --desktop-h3: 1.875rem;
+    --desktop-h4: 1.5625rem;
+    --desktop-body: 1.375rem;
+    --desktop-misc: 1.125rem;
+}
 *{
     box-sizing: border-box;
 }
 
+body{
+    color: var(--paragraph)
+}
+h1,h2,h3,h4{
+    color: var(--header)
+}
+
+h1{
+    font-size:var(--mobile-h1);
+}
+h2{
+    font-size:var(--mobile-h2);
+}
+h3{
+    font-size:var(--mobile-h3);
+}
+p{
+    font-size:var(--desktop-body);
+}
+.misc{
+    font-size: var(--desktop-misc);
+}
 
 .grid {
     display: grid;
@@ -33,23 +139,23 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 .span-12 { grid-column: span 12;} 
 
 
-@media (min-width: 750px) {
-  .p{
+@media (min-width: 650px) {
+  p{
     font-size: 1.375rem !important;
 }
-  .h1{
+  h1{
     font-size: 3rem !important;
 }
-  .h2{
+  h2{
     font-size: 2.375rem !important;
 }
-  .h3{
+  h3{
     font-size: 1.875rem !important;
 }
-  .h4{
+  h4{
     font-size: 1.5625rem !important;
 }
-  .misc{
+  misc{
     font-size: 1.125rem !important;
  }
  .grid {
