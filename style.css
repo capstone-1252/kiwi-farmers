@@ -106,6 +106,7 @@ h1,h2,h3,h4{
 }
 h1{
     font-size:var(--mobile-h1)!important;
+    width: 175px;
 }
 h2 {
     font-size:var(--mobile-h2)!important;
@@ -155,6 +156,7 @@ header h1, footer h2{
 }
   h1{
     font-size: 3rem !important;
+    width: 175px;
 }
   h2{
     font-size: 2.375rem !important;
@@ -168,10 +170,9 @@ header h1, footer h2{
   misc{
     font-size: 1.125rem !important;
  }
- .grid {
+ .grid{
         grid-template-columns: repeat(12, 1fr);
     }
-
     header h1, footer h2{
     font-size: var(--desktop-h2)!important;
     color: var(--green)!important;
@@ -180,11 +181,11 @@ header h1, footer h2{
 .subheader{
     font-size: var(--mobile-misc)!important;
     color: var(--logo-brown)!important;
-    line-height: 0px;
-    width:100%;
+    line-height: 0px !important;
+    width:100% !important;
 }
 header br, footer br{
-    height: 1px;
-    line-height: 0px;
+    height: 1px !important;
+    line-height: 0px !important;
 }
 }
