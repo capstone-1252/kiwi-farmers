@@ -1,5 +1,5 @@
-<!-- wp:group {"tagName":"footer","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"left":"var:preset|spacing|40","right":"var:preset|spacing|40","top":"4.5rem","bottom":"4.5rem"}}},"backgroundColor":"white-primary-0","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<footer class="wp-block-group has-white-primary-0-background-color has-background"
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"left":"var:preset|spacing|40","right":"var:preset|spacing|40","top":"4.5rem","bottom":"4.5rem"}}},"backgroundColor":"white-primary-0","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group has-white-primary-0-background-color has-background"
     style="margin-top:0;margin-bottom:0;padding-top:4.5rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:4.5rem;padding-left:var(--wp--preset--spacing--40)">
     <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|20"},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","orientation":"horizontal"}} -->
     <div class="wp-block-group"
@@ -16,7 +16,7 @@
         <div class="wp-block-group has-brown-secondary-0-color has-text-color has-link-color">
             <!-- wp:heading {"textAlign":"left","className":"h2","style":{"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"green","fontSize":"h1-mobile"} -->
             <h2 class="wp-block-heading has-text-align-left h2 has-green-color has-text-color has-h-1-mobile-font-size">
-            Top Asian<span class="subheader">Massage &amp; Foot Reflexology</span></h2>
+                Top Asian<span class="subheader">Massage &amp; Foot Reflexology</span></h2>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
@@ -33,17 +33,20 @@
             <h3 class="wp-block-heading h3 has-h-3-mobile-font-size">Contact Us</h3>
             <!-- /wp:heading -->
 
-            <!-- wp:paragraph {"className":"p","fontSize":"body-mobile"} -->
-            <p class="p has-body-mobile-font-size">topasianmassage@gmail.com</p>
-            <!-- /wp:paragraph -->
+            <!-- wp:group {"tagName":"aside","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+            <address class="wp-block-group"><!-- wp:paragraph {"className":"p","fontSize":"body-mobile"} -->
+                <p class="p has-body-mobile-font-size"><a href="mailto:topasianmassage@gmail.com">topasianmassage@gmail.com</a></p>
+                <!-- /wp:paragraph -->
 
-            <!-- wp:paragraph {"className":"p","fontSize":"body-mobile"} -->
-            <p class="p has-body-mobile-font-size">(+1) 825-823-1118 (Prefer Text)</p>
-            <!-- /wp:paragraph -->
+                <!-- wp:paragraph {"className":"p","fontSize":"body-mobile"} -->
+                <p class="p has-body-mobile-font-size"><a href="tel:+18258231118">(+1) 825-823-1118</a> <small>(Prefer Text)</small></p>
+                <!-- /wp:paragraph -->
 
-            <!-- wp:paragraph {"className":"p","fontSize":"body-mobile"} -->
-            <p class="p has-body-mobile-font-size">17717-Fifth Ave, SW Edmonton AB. T6W 2L4</p>
-            <!-- /wp:paragraph -->
+                <!-- wp:paragraph {"className":"p","fontSize":"body-mobile"} -->
+                <p class="p has-body-mobile-font-size">17717-Fifth Ave, SW Edmonton AB. T6W 2L4</p>
+                <!-- /wp:paragraph -->
+            </address>
+            <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
 
@@ -53,7 +56,9 @@
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"className":"p","fontSize":"body-mobile"} -->
-            <p class="p has-body-mobile-font-size">Monday - Friday: 8am - 9pm</p>
+            <p class="p has-body-mobile-font-size">Monday &ndash; Friday: <time datetime="08:00">8am</time> &ndash;
+                <time datetime="21:00">9pm</time>
+            </p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph {"className":"p","fontSize":"body-mobile"} -->
@@ -63,5 +68,5 @@
         <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-</footer>
+</div>
 <!-- /wp:group -->
