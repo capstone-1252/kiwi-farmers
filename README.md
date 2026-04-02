@@ -26,6 +26,8 @@ These steps are to be followed to help prevent any issues that may arise from me
 ---
 
 ## Recent Messages
+### Rodney Russell (02/04/2026, 13:02)
+Good afternoon, Rodney here! The rest of my duties have been stylizing the website and fixing up some previous development hurdles for more efficient work. So far i've been tinkering with the header and replaced WordPress's universal styles with a proper style.css. Very soon i'll be adding a basic css grid system to keep consistant spacing and alignment throughout the website. Kevin is currently working on SEO and has fixed much of the code for accessability and best practices. We are on the final stretch in completing the website and i look forward to seeing the final product in public.
 
 ### Rodney Russell (26/03/2026, 12:43)
 It's time to make my first post! I've spent about 15 hours in total figuring out why something as basic as ACF/SCF would not work. Following the previous lab lesson on the plugin led me nowhere. After trying almost a dozen different solutions, I found one that works! I downloaded the plugin CodeSnippets and made a function that create it's own shortcode to use. I then created a form that loads wherever that shortcode is added to an admin-only page. By filling out the form and pressing submit, SCF automatically creates a new post, displays the details on the custom post with the new shortcodes, and redirects you to that post to view it. This is a "if it works, don't touch it" scenario. All that's left is to style it to fit the website. In the end, I'm proud I was able to achieve such a solution despite how easy ACF should be. I'm no longer convinced that Hostinger itself is preventing the functionality of ACF/SCF plugins.
