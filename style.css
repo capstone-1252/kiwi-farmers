@@ -2,7 +2,7 @@
 Theme Name: Top Asian Massage
 Author: Kevin Paradis & Rodney Russell
 Description: The block theme for our capstone project
-Version: 1.5.36
+Version: 1.5.37
 Requires at least: 6.8.0
 Tested up to: 6.9.1
 Requires PHP: 8.2.27
@@ -132,6 +132,43 @@ nav{
     width: 21.25rem!important;
 }
 
+main .wp-block-button .wp-block-button__link {
+    background-color: var(--brown-primary-d1) !important;
+    color: var(--off-white) !important;
+    border-radius: 5px !important;
+    font-size: var(--desktop-misc)!important;
+    text-decoration: none !important;
+    transition: 0.3s ease-in-out !important;
+    height: 60px;
+    display: inline-block;
+    text-align:center;
+    border: none !important; 
+    box-shadow: none !important;
+}
+
+main .wp-block-button .wp-block-button__link:hover {
+    background-color: var(--blue-button-d1) !important;
+    color: var(--off-white) !important;
+}
+
+main .wp-block-group.is-layout-flex {
+    flex-direction: column !important; 
+    gap: 2rem !important;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)!important;
+}
+.span-1  { grid-column: span 1; }   
+.span-2  { grid-column: span 2; }   
+.span-3  { grid-column: span 3; }    
+.span-4  { grid-column: span 4; }    
+.span-6  { grid-column: span 6; }    
+.span-8  { grid-column: span 8; } 
+.span-9  { grid-column: span 9; }   
+.span-12 { grid-column: span 12;} 
+
 @media (max-width: 599px) {
     .wp-block-navigation__responsive-container.is-menu-open {
     background-color: var(--paragraph-light) !important;
@@ -151,35 +188,6 @@ nav{
     padding-right: 6rem !important;
   }  
 }
-
-main .wp-block-button .wp-block-button__link {
-    background-color: var(--brown-primary-d1) !important;
-    color: var(--off-white) !important;
-    border-radius: 5px !important;
-    text-decoration: none !important;
-    transition: background-color 0.3s ease-in-out !important;
-        
-    border: none !important; 
-    box-shadow: none !important;
-}
-
-main .wp-block-button .wp-block-button__link:hover {
-    background-color: var(--blue-button-d1) !important;
-    color: var(--off-white) !important;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr)!important;
-}
-.span-1  { grid-column: span 1; }   
-.span-2  { grid-column: span 2; }   
-.span-3  { grid-column: span 3; }    
-.span-4  { grid-column: span 4; }    
-.span-6  { grid-column: span 6; }    
-.span-8  { grid-column: span 8; } 
-.span-9  { grid-column: span 9; }   
-.span-12 { grid-column: span 12;} 
 
 @media (min-width: 650px) {
 
@@ -201,6 +209,12 @@ p{
 .logo{
     width: 15.625rem !important;
 }
+
+main .wp-block-group.is-layout-flex {
+    flex-direction: row !important; 
+    gap: 4rem !important;
+}
+
  .grid{
         grid-template-columns: repeat(12, 1fr);
     }
