@@ -81,15 +81,16 @@
 
                 <!-- wp:column -->
                 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
-                    <div class="wp-block-group"><!-- wp:shortcode -->
-                        [show_field slug="thumbnail"]
-                        <!-- /wp:shortcode -->
-
-                        <!-- wp:shortcode -->
-                        [show_field slug="image"]
-                        <!-- /wp:shortcode -->
-                    </div>
+                    <div class="wp-block-group"><!-- wp:post-featured-image /--></div>
                     <!-- /wp:group -->
+
+                    <!-- wp:group {"layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group"></div>
+                    <!-- /wp:group -->
+
+                    <!-- wp:shortcode -->
+                    [show_field slug="supplementary_image" type="image"]
+                    <!-- /wp:shortcode -->
                 </div>
                 <!-- /wp:column -->
             </div>
@@ -118,7 +119,8 @@
 
     <!-- wp:buttons {"style":{"spacing":{"padding":{"top":"1rem"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-buttons" style="padding-top:1rem"><!-- wp:button -->
-        <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Back to List</a></div>
+        <div class="wp-block-button"><a class="wp-block-button__link wp-element-button"
+                href="https://topasianmassage.com/services/">Back to List</a></div>
         <!-- /wp:button -->
     </div>
     <!-- /wp:buttons -->

@@ -131,10 +131,27 @@ header a:hover{
 nav{
     width: 21.25rem!important;
 }
-wp-block-navigation__responsive-close{
-    padding: 1rem !important;
-    padding-left: 4rem !important;
+.wp-block-navigation__responsive-container-open svg {
+    fill: var(--brown-primary-d2) !important;
+    width: 50px !important;
+    height: 50px !important;  
 }
+
+.wp-block-navigation__responsive-container-close svg {
+    fill: var(--brown-primary-d2) !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.wp-block-navigation__responsive-container-content {
+    padding-left: 0 !important;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item {
+    width: 100% !important;
+    text-align: left !important;
+}
+
 main .wp-block-button{
     background-color: var(--brown-primary-d2)!important;
     border-radius: 5px!important;
@@ -146,10 +163,6 @@ main .wp-block-button:hover{
     background-color: var(--blue-button-d1)!important;
 }
 
-wp-block-navigation__responsive-container-open, wp-block-navigation__responsive-container-open svg{
-    width: 3.125rem !important;
-    height: 3.125rem !important;
-}
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr)!important;
