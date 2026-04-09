@@ -132,29 +132,51 @@ nav{
     width: 21.25rem!important;
 }
 
-main .wp-block-button .wp-block-button__link {
+main .wp-block-button .wp-block-button__link, main .wp-block-read-more  {
     background-color: var(--brown-primary-d1) !important;
     color: var(--off-white) !important;
     border-radius: 5px !important;
-    font-size: var(--desktop-misc)!important;
+    font-size: var(--desktop-body)!important;
     text-decoration: none !important;
     transition: 0.3s ease-in-out !important;
     height: 60px;
     display: inline-block;
     text-align:center;
     border: none !important; 
-    padding:1rem;
+    box-shadow: none !important;
 }
 
-main .wp-block-button .wp-block-button__link:hover {
+main .wp-block-button .wp-block-button__link:hover, main .wp-block-read-more:hover {
     background-color: var(--blue-button-d1) !important;
     color: var(--off-white) !important;
+}
+
+main .wp-block-read-more a,.wp-block-read-more strong{
+    font-family: var(--font-tahoma)!important;
+    font-size: var(--desktop-misc)!important;
+    display: inline-block !important;
+    font-weight:500 !important;
+}
+
+.wp-block-read-more{
+    display: flex!important;
+    justify-content: center!important;
+    display: flex!important;              
+    align-items: center!important;        
+    justify-content: center!important;
 }
 
 main .wp-block-group.is-layout-flex {
     flex-direction: column !important; 
     gap: 2rem !important;
 }
+main .wp-block-post-template .wp-block-group.is-layout-flex {
+    gap: 1rem !important;
+}
+.wp-block-post-template li > .wp-block-group {
+    flex: 1;
+}
+
 
 @media (max-width: 599px) {
     .wp-block-navigation__responsive-container.is-menu-open {
@@ -227,7 +249,7 @@ p{
     width: 15.625rem !important;
 }
 
-main .wp-block-group.is-layout-flex {
+main .wp-block-group .is-layout-flex {
     flex-direction: row !important; 
     gap: 4rem !important;
 }
