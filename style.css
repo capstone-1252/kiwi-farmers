@@ -2,7 +2,7 @@
 Theme Name: Top Asian Massage
 Author: Kevin Paradis & Rodney Russell
 Description: The block theme for our capstone project
-Version: 1.5.41
+Version: 1.5.40
 Requires at least: 6.8.0
 Tested up to: 6.9.1
 Requires PHP: 8.2.27
@@ -132,6 +132,7 @@ nav{
     width: 21.25rem!important;
 }
 
+/*BUTTON STYLES*/
 main .wp-block-button .wp-block-button__link, main .wp-block-read-more  {
     background-color: var(--brown-primary-d1) !important;
     color: var(--off-white) !important;
@@ -143,9 +144,9 @@ main .wp-block-button .wp-block-button__link, main .wp-block-read-more  {
     display: inline-block;
     text-align:center;
     border: none !important; 
-    box-shadow: none !important;
 }
 
+/*QUERY LOOP STYLES*/
 main .wp-block-button .wp-block-button__link:hover, main .wp-block-read-more:hover {
     background-color: var(--blue-button-d1) !important;
     color: var(--off-white) !important;
@@ -175,9 +176,22 @@ main .wp-block-post-template .wp-block-group.is-layout-flex {
 }
 .wp-block-post-template li > .wp-block-group {
     flex: 1;
+    height: 100%;   
 }
 
+.wp-block-post-template{
+    padding:0rem 1rem!important;
+}
 
+ .wp-block-post-title{
+     margin:0rem 0 2rem 0!important;
+ }
+
+.wp-block-post-title a{
+    color:var(--header)!important;
+}
+
+/*MOBILE MENU STYLES*/
 @media (max-width: 599px) {
     .wp-block-navigation__responsive-container.is-menu-open {
     background-color: var(--paragraph-light) !important;
@@ -202,13 +216,23 @@ main .wp-block-post-template .wp-block-group.is-layout-flex {
 }
     
     .wp-block-navigation__responsive-container-content .wp-block-navigation-item {
+    width: 100%!important;
+    text-align:left!important;
+    padding:0 !important;
+    padding-top:1rem !important;
+    margin:0!important;       
+}
+    .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container {
+    text-align: left!important;
+    margin:0!important;
+    border-left:2px solid var(--brown-primary-d1)!important;
+}
+
+    .wp-block-navigation__responsive-container-content .wp-block-navigation-item {
     width: 100% !important;
     display: flex !important;
     justify-content: flex-start !important;
     text-align: left !important;
-    padding:0 !important;
-    padding-top:1rem !important;
-    margin:0!important; 
 }
     #modal-1-content .wp-block-navigation-item {
     width: 100% !important;
@@ -217,17 +241,16 @@ main .wp-block-post-template .wp-block-group.is-layout-flex {
     flex-direction: column !important; 
 }
 
-.wp-block-navigation__submenu-container {
+#modal-1-content .wp-block-navigation__submenu-container {
+    margin-left: 0 !important;
     padding-left: 20px !important;
     align-items: flex-start !important;
     display: flex !important;
     flex-direction: column !important;
-    text-align: left!important;
-    margin:1rem 0 0 0!important;
-    border-left:2px solid var(--white-secondary-d3)!important;
 }  
 }
 
+/*DESKTOP LAYOUT*/
 @media (min-width: 650px) {
 
 h1{
@@ -254,4 +277,7 @@ main .wp-block-group .is-layout-flex {
     gap: 4rem !important;
 }
 
+    .wp-block-post-title a{
+    font-size:var(--desktop-h4);
+}
 }
