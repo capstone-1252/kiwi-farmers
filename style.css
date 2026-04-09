@@ -2,7 +2,7 @@
 Theme Name: Top Asian Massage
 Author: Kevin Paradis & Rodney Russell
 Description: The block theme for our capstone project
-Version: 1.5.44
+Version: 1.5.40
 Requires at least: 6.8.0
 Tested up to: 6.9.1
 Requires PHP: 8.2.27
@@ -191,6 +191,60 @@ main .wp-block-post-template .wp-block-group.is-layout-flex {
     color:var(--header)!important;
 }
 
+.post-content-wrapper .wp-block-columns {
+    flex-direction: column !important; 
+    gap: 2rem !important;
+    display: flex !important;
+}
+
+.post-content-wrapper .is-nowrap {
+    flex-wrap: wrap !important;
+}
+
+.post-content-wrapper .wp-block-column {
+    flex-basis: 100% !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+.post-content-wrapper img, 
+.post-content-wrapper figure {
+    max-width: 28.125rem !important; 
+    max-height: 31.25rem !important;     
+    width: 100% !important;     
+    display: block;
+    border-radius:5px !important;
+    margin:0 auto;
+    object-fit: cover !important;
+}
+
+.post-content-wrapper .wp-block-column:last-child p img {
+    max-height: 18.75rem !important; 
+}
+
+.post-content-wrapper ul.wp-block-list {
+    list-style-type: none !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    max-width:3400px!important;
+    gap: 1rem !important;
+}
+
+.post-content-wrapper ul.wp-block-list li {
+    background-color: var(--white-primary-u2) !important;
+    color: var(--paragraph) !important;
+    font-size: var(--mobile-body)!important;
+    padding: 1rem !important;
+    border-radius: 5px !important;
+    flex: 1 1 100% !important; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align:left;
+}
+
 /*MOBILE MENU STYLES*/
 @media (max-width: 599px) {
     .wp-block-navigation__responsive-container.is-menu-open {
@@ -280,4 +334,16 @@ main .wp-block-group .is-layout-flex {
     .wp-block-post-title a{
     font-size:var(--desktop-h4);
 }
+    .post-content-wrapper .wp-block-columns {
+        flex-direction: row !important; 
+        gap: 2rem !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .post-content-wrapper .wp-block-column {
+        flex-basis: 50% !important;
+    }
+    .post-content-wrapper ul.wp-block-list li {
+        font-size: var(--desktop-body)!important;
+    }
 }
