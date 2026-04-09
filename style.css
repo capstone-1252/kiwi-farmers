@@ -2,7 +2,7 @@
 Theme Name: Top Asian Massage
 Author: Kevin Paradis & Rodney Russell
 Description: The block theme for our capstone project
-Version: 1.5.40
+Version: 1.5.41
 Requires at least: 6.8.0
 Tested up to: 6.9.1
 Requires PHP: 8.2.27
@@ -156,7 +156,6 @@ main .wp-block-group.is-layout-flex {
     gap: 2rem !important;
 }
 
-/*MOBILE MENU STYLES*/
 @media (max-width: 599px) {
     .wp-block-navigation__responsive-container.is-menu-open {
     background-color: var(--paragraph-light) !important;
@@ -181,27 +180,13 @@ main .wp-block-group.is-layout-flex {
 }
     
     .wp-block-navigation__responsive-container-content .wp-block-navigation-item {
-    width: 100%!important;
-    text-align:left!important;
-    padding:0 !important;
-    padding-top:1rem !important;
-    margin:0!important;       
-}
-    .wp-block-navigation__submenu-container {
-    padding-left: 20px !important;
-    align-items: flex-start !important;
-    display: flex !important;
-    flex-direction: column !important;
-    text-align: left!important;
-    margin:1rem 0 0 0!important;
-    border-left:2px solid var(--white-secondary-d3)!important;
-}
-
-    .wp-block-navigation__responsive-container-content .wp-block-navigation-item {
     width: 100% !important;
     display: flex !important;
     justify-content: flex-start !important;
     text-align: left !important;
+    padding:0 !important;
+    padding-top:1rem !important;
+    margin:0!important; 
 }
     #modal-1-content .wp-block-navigation-item {
     width: 100% !important;
@@ -209,6 +194,16 @@ main .wp-block-group.is-layout-flex {
     display: flex !important;
     flex-direction: column !important; 
 }
+
+.wp-block-navigation__submenu-container {
+    padding-left: 20px !important;
+    align-items: flex-start !important;
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: left!important;
+    margin:1rem 0 0 0!important;
+    border-left:2px solid var(--white-secondary-d3)!important;
+}  
 }
 
 @media (min-width: 650px) {
