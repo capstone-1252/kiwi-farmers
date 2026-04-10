@@ -2,7 +2,7 @@
 Theme Name: Top Asian Massage
 Author: Kevin Paradis & Rodney Russell
 Description: The block theme for our capstone project
-Version: 1.5.68
+Version: 1.5.69
 Requires at least: 6.8.0
 Tested up to: 6.9.1
 Requires PHP: 8.2.27
@@ -507,4 +507,15 @@ main img {
 /* "Services" and "About Us" link styling */
 .wp-block-navigation-item a[href*="/services/"]:hover, .wp-block-navigation-item a[href*="/about-us/"]:hover {
     text-decoration: underline !important;
+}
+
+/* Styling hr */
+.wp-block-separator {
+    max-width: 960px;
+    border-top: 6px solid var(--brown-primary-0);
+    border-radius: 5px;
+    opacity: 1;
+    position: relative;
+    z-index: 10; 
+    margin-top: -6px !important; 
 }
