@@ -2,7 +2,7 @@
 Theme Name: Top Asian Massage
 Author: Kevin Paradis & Rodney Russell
 Description: The block theme for our capstone project
-Version: 1.5.64
+Version: 1.5.65
 Requires at least: 6.8.0
 Tested up to: 6.9.1
 Requires PHP: 8.2.27
@@ -497,4 +497,9 @@ main img {
 /* Box shadows for post template */
 .wp-block-post {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Added hover state to Book Now button in header */
+.nav-container a[href*="acuityscheduling.com"]:hover {
+    text-decoration: underline !important;
 }
